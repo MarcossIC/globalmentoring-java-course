@@ -1,0 +1,5 @@
+com\example\sga\cliente\TestTransacciones.class
+com\example\sga\domain\Usuario.class
+com\example\sga\domain\Persona.class
+com\example\sga\cliente\ClientePersonaService.class
+com\example\sga\service\PersonaServiceRemote.class

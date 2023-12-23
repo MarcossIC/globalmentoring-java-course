@@ -1,0 +1,9 @@
+domain\Persona.class
+test\TestManejoPersona.class
+test\TestMySQL.class
+test\TestEjer.class
+datos\UsuarioDAO.class
+datos\UsuarioDAOImp.class
+domain\Usuario.class
+datos\Conexion.class
+datos\PersonaJDBC.class

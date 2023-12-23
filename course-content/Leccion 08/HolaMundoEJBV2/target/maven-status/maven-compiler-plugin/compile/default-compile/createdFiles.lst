@@ -1,0 +1,3 @@
+beans\EmpleadoEjbRemote.class
+beans\EmpleadoEjbImpl.class
+test\TestHolaMundoEJB.class

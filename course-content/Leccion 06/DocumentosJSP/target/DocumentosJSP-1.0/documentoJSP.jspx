@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+    
+    <!-- Uso de declaraciones. Pero con JSPx, es decir la sintacis XML para JSP -->
+    <jsp:declaration>
+        private int contadorVisitas = 1;
+    </jsp:declaration>
+    
+    <html>
+        <head>
+            <title>Documento JSPx</title>
+        </head>
+        <body>
+            <h1>Ejemplo de un documento JSPx</h1>
+            <!-- Ejemplo de salida de Texto -->
+            <jsp:text>Saludos desde un documento JSPx</jsp:text>
+            <!-- Ejemplo de expresion con JSP -->
+            <p>Numero: <jsp:expression>2 * 3</jsp:expression></p>
+            <!-- Ejemplo de ScriptLets -->
+            <p>
+                Nombre de la Aplicacion: 
+                <jsp:scriptlet>
+                    String nombreAplicacion = request.getContextPath();
+                </jsp:scriptlet>
+            </p>
+            <p>Nombre de la Aplicacion: <jsp:expression>nombreAplicacion</jsp:expression></p> 
+            <p>Contador de visitas: <jsp:expression>this.contadorVisitas++ </jsp:expression></p>  
+        </body>
+    </html>
+</jsp:root>

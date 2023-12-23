@@ -1,0 +1,5 @@
+beans\backing\VacantesForm.class
+beans\models\Candidato.class
+beans\configuration\ConfigurationJSF.class
+beans\lifecycle\DebuggerListener.class
+.netbeans_automatic_build
