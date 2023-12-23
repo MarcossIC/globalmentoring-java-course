@@ -6,7 +6,7 @@ This repository contains a Global Mentoring course given by "Ubaldo Acosta", thi
 - I learned what access modifiers are.
 - I learned how Scope works in Java.
 - I learned what static context is in Java.
-- I learned naming conventions and conventions in programming (camelcase, snakecase, kebabcase, scrimingcase).
+- I learned naming conventions and conventions in programming (camelcase, snakecase, kebabcase, screamingcase).
 - I learned that he is a POJO.
 - I learned file and folder management in Java.
 - I learned what the Collection and Map APIs are.
